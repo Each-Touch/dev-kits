@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "juicebox-2d",
+    "name": "JuiceBox 2D — Game Feel & Juice Engine",
+    "shortTitle": "JuiceBox 2D — Zero-Dependency HTML5 Game Feel & Juice Kit (TS/JS)",
+    "tagline": "12 battle-tested ES Modules + TypeScript .d.ts for Camera Shake, Hitstop, Springs, Particle Pools, Squash & Stretch, Motion Trails & WebAudio Impacts. Includes live playground & Free Lite Demo.",
+    "category": "HTML5 Engine Modules",
+    "priceUsd": 5.99,
+    "modules": 12,
+    "itchUrl": "",
+    "playgroundPath": "./juicebox-2d/",
+    "status": "live",
+    "launchedAt": "2026-11-22",
+    "highlights": [
+      "12 drop-in zero-dependency ES modules + full TypeScript .d.ts definitions & unit tests",
+      "Trauma Camera Shake, Hitstop freeze frames, Damped Springs, Particle & Floating Text Pools, Time Dilation",
+      "Includes 3 standalone playable HTML demos + live interactive sandbox + Commercial Project License"
+    ]
+  }
+]

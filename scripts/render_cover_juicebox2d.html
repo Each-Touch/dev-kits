@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0; width: 630px; height: 500px; overflow: hidden;
+      background: #0b0f14; color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .cover {
+      width: 630px; height: 500px; padding: 32px 34px;
+      background:
+        radial-gradient(circle at 86% 18%, rgba(16, 185, 129, 0.22), transparent 44%),
+        radial-gradient(circle at 14% 85%, rgba(245, 158, 11, 0.24), transparent 46%),
+        linear-gradient(155deg, #101722 0%, #090c11 100%);
+      display: flex; flex-direction: column; justify-content: space-between;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+    }
+    .badges { display: flex; gap: 10px; }
+    .pill { padding: 5px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+    .pill-green { background: rgba(16, 185, 129, 0.16); border: 1px solid rgba(16, 185, 129, 0.5); color: #34d399; }
+    .pill-cyan { background: rgba(56, 189, 248, 0.16); border: 1px solid rgba(56, 189, 248, 0.45); color: #7dd3fc; }
+    .hero h1 { margin: 0 0 8px; font-size: 50px; line-height: 1.02; font-weight: 900; letter-spacing: -0.03em; }
+    .hero h1 span { color: #f59e0b; }
+    .hero p { margin: 0; font-size: 18px; color: #cbd5e1; font-weight: 600; }
+    .mod-card {
+      background: #05080c; border: 1.5px solid rgba(148, 163, 184, 0.32);
+      border-radius: 14px; padding: 14px 18px;
+      box-shadow: 0 14px 30px rgba(0,0,0,0.48);
+    }
+    .mod-top { display: flex; justify-content: space-between; font-family: ui-monospace, Menlo, monospace; font-size: 12px; color: #94a3b8; margin-bottom: 10px; }
+    .mod-top strong { color: #34d399; }
+    .mods { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px 12px; font-size: 12.5px; font-weight: 700; color: #e2e8f0; }
+    .mods div { background: #131922; border: 1px solid rgba(148, 163, 184, 0.18); border-radius: 6px; padding: 5px 8px; text-align: center; }
+    .bottom { display: flex; justify-content: space-between; align-items: center; }
+    .cta { background: #f59e0b; color: #0b0f14; font-weight: 900; font-size: 15px; padding: 10px 16px; border-radius: 9px; }
+    .brand { font-family: ui-monospace, Menlo, monospace; font-size: 12px; color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div class="badges">
+      <span class="pill pill-green">ZERO DEPS · TS + JS</span>
+      <span class="pill pill-cyan">COMMERCIAL LICENSE · ZERO AI</span>
+    </div>
+    <div class="hero">
+      <h1>JUICEBOX <span>2D</span></h1>
+      <p>12 HTML5 Game Feel &amp; Juice Modules</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-top">
+        <span><strong>ESM + .d.ts</strong> · 3 DEMOS + UNIT TESTS</span>
+        <span>60FPS CANVAS READY</span>
+      </div>
+      <div class="mods">
+        <div>CameraShake</div><div>Hitstop</div><div>SpringValue</div>
+        <div>ParticlePool</div><div>FloatingText</div><div>SquashStretch</div>
+        <div>HitFlash</div><div>MotionTrail</div><div>TimeScale</div>
+        <div>ImpactAudio</div><div>InputAssist</div><div>FpsMonitor</div>
+      </div>
+    </div>
+    <div class="bottom">
+      <span class="cta">FREE LITE DEMO · FULL KIT $5.99</span>
+      <span class="brand">EACH-TOUCH DEV KITS</span>
+    </div>
+  </div>
+</body>
+</html>
